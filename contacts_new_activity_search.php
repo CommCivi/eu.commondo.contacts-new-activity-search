@@ -1,17 +1,17 @@
 <?php
 
-require_once 'enhanced_contacts_search.civix.php';
+require_once 'contacts_new_activity_search.civix.php';
 
-use CRM_EnhancedContactsSearch_ExtensionUtil as E;
+use CRM_ContactsNewActivitySearch_ExtensionUtil as E;
 
 /**
  * Implements hook_civicrm_config().
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_config
  */
-function enhanced_contacts_search_civicrm_config(&$config)
+function contacts_new_activity_search_civicrm_config(&$config)
 {
-    _enhanced_contacts_search_civix_civicrm_config($config);
+    _contacts_new_activity_search_civix_civicrm_config($config);
 }
 
 /**
@@ -19,9 +19,9 @@ function enhanced_contacts_search_civicrm_config(&$config)
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_xmlMenu
  */
-function enhanced_contacts_search_civicrm_xmlMenu(&$files)
+function contacts_new_activity_search_civicrm_xmlMenu(&$files)
 {
-    _enhanced_contacts_search_civix_civicrm_xmlMenu($files);
+    _contacts_new_activity_search_civix_civicrm_xmlMenu($files);
 }
 
 /**
@@ -29,9 +29,9 @@ function enhanced_contacts_search_civicrm_xmlMenu(&$files)
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_install
  */
-function enhanced_contacts_search_civicrm_install()
+function contacts_new_activity_search_civicrm_install()
 {
-    _enhanced_contacts_search_civix_civicrm_install();
+    _contacts_new_activity_search_civix_civicrm_install();
 }
 
 /**
@@ -39,9 +39,9 @@ function enhanced_contacts_search_civicrm_install()
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_postInstall
  */
-function enhanced_contacts_search_civicrm_postInstall()
+function contacts_new_activity_search_civicrm_postInstall()
 {
-    _enhanced_contacts_search_civix_civicrm_postInstall();
+    _contacts_new_activity_search_civix_civicrm_postInstall();
 }
 
 /**
@@ -49,9 +49,9 @@ function enhanced_contacts_search_civicrm_postInstall()
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_uninstall
  */
-function enhanced_contacts_search_civicrm_uninstall()
+function contacts_new_activity_search_civicrm_uninstall()
 {
-    _enhanced_contacts_search_civix_civicrm_uninstall();
+    _contacts_new_activity_search_civix_civicrm_uninstall();
 }
 
 /**
@@ -59,9 +59,9 @@ function enhanced_contacts_search_civicrm_uninstall()
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_enable
  */
-function enhanced_contacts_search_civicrm_enable()
+function contacts_new_activity_search_civicrm_enable()
 {
-    _enhanced_contacts_search_civix_civicrm_enable();
+    _contacts_new_activity_search_civix_civicrm_enable();
 }
 
 /**
@@ -69,9 +69,9 @@ function enhanced_contacts_search_civicrm_enable()
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_disable
  */
-function enhanced_contacts_search_civicrm_disable()
+function contacts_new_activity_search_civicrm_disable()
 {
-    _enhanced_contacts_search_civix_civicrm_disable();
+    _contacts_new_activity_search_civix_civicrm_disable();
 }
 
 /**
@@ -79,9 +79,9 @@ function enhanced_contacts_search_civicrm_disable()
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_upgrade
  */
-function enhanced_contacts_search_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL)
+function contacts_new_activity_search_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL)
 {
-    return _enhanced_contacts_search_civix_civicrm_upgrade($op, $queue);
+    return _contacts_new_activity_search_civix_civicrm_upgrade($op, $queue);
 }
 
 /**
@@ -92,9 +92,9 @@ function enhanced_contacts_search_civicrm_upgrade($op, CRM_Queue_Queue $queue = 
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_managed
  */
-function enhanced_contacts_search_civicrm_managed(&$entities)
+function contacts_new_activity_search_civicrm_managed(&$entities)
 {
-    _enhanced_contacts_search_civix_civicrm_managed($entities);
+    _contacts_new_activity_search_civix_civicrm_managed($entities);
 }
 
 /**
@@ -106,9 +106,9 @@ function enhanced_contacts_search_civicrm_managed(&$entities)
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_caseTypes
  */
-function enhanced_contacts_search_civicrm_caseTypes(&$caseTypes)
+function contacts_new_activity_search_civicrm_caseTypes(&$caseTypes)
 {
-    _enhanced_contacts_search_civix_civicrm_caseTypes($caseTypes);
+    _contacts_new_activity_search_civix_civicrm_caseTypes($caseTypes);
 }
 
 /**
@@ -121,9 +121,9 @@ function enhanced_contacts_search_civicrm_caseTypes(&$caseTypes)
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_angularModules
  */
-function enhanced_contacts_search_civicrm_angularModules(&$angularModules)
+function contacts_new_activity_search_civicrm_angularModules(&$angularModules)
 {
-    _enhanced_contacts_search_civix_civicrm_angularModules($angularModules);
+    _contacts_new_activity_search_civix_civicrm_angularModules($angularModules);
 }
 
 /**
@@ -131,9 +131,9 @@ function enhanced_contacts_search_civicrm_angularModules(&$angularModules)
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_alterSettingsFolders
  */
-function enhanced_contacts_search_civicrm_alterSettingsFolders(&$metaDataFolders = NULL)
+function contacts_new_activity_search_civicrm_alterSettingsFolders(&$metaDataFolders = NULL)
 {
-    _enhanced_contacts_search_civix_civicrm_alterSettingsFolders($metaDataFolders);
+    _contacts_new_activity_search_civix_civicrm_alterSettingsFolders($metaDataFolders);
 }
 
 // --- Functions below this ship commented out. Uncomment as required. ---
@@ -143,7 +143,7 @@ function enhanced_contacts_search_civicrm_alterSettingsFolders(&$metaDataFolders
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_preProcess
  *
- * function enhanced_contacts_search_civicrm_preProcess($formName, &$form) {
+ * function contacts_new_activity_search_civicrm_preProcess($formName, &$form) {
  *
  * } // */
 
@@ -152,8 +152,8 @@ function enhanced_contacts_search_civicrm_alterSettingsFolders(&$metaDataFolders
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_navigationMenu
  *
- * function enhanced_contacts_search_civicrm_navigationMenu(&$menu) {
- * _enhanced_contacts_search_civix_insert_navigation_menu($menu, NULL, array(
+ * function contacts_new_activity_search_civicrm_navigationMenu(&$menu) {
+ * _contacts_new_activity_search_civix_insert_navigation_menu($menu, NULL, array(
  * 'label' => E::ts('The Page'),
  * 'name' => 'the_page',
  * 'url' => 'civicrm/the-page',
@@ -161,11 +161,11 @@ function enhanced_contacts_search_civicrm_alterSettingsFolders(&$metaDataFolders
  * 'operator' => 'OR',
  * 'separator' => 0,
  * ));
- * _enhanced_contacts_search_civix_navigationMenu($menu);
+ * _contacts_new_activity_search_civix_navigationMenu($menu);
  * } // */
 
 
-function enhanced_contacts_search_civicrm_buildForm($formName, &$form)
+function contacts_new_activity_search_civicrm_buildForm($formName, &$form)
 {
   foreach ($form->_elements as $element) {
     if (isset($element->_attributes['data-api-entity']) && $element->_attributes['data-api-entity'] == 'contact') {

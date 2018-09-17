@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
-<extension key="eu.commondo.enhanced-contacts-search" type="module">
-  <file>enhanced_contacts_search</file>
-  <name>Ehanced contact search</name>
   <description>This extension adds new functionality into the Contact -> New activity form. Except searching contact's by name or email, it giveawys functionality to search contacts by ID.</description>
   <license>AGPL-3.0</license>
   <maintainer>
@@ -9,9 +6,6 @@
     <email>patrik.kranjcec@commondo.eu</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">https://github.com/CommCivi/eu.commondo.enhanced-contacts-search</url>
-    <url desc="Documentation">https://github.com/CommCivi/eu.commondo.enhanced-contacts-search</url>
-    <url desc="Support">https://github.com/CommCivi/eu.commondo.enhanced-contacts-search</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2018-05-21</releaseDate>
@@ -22,6 +16,5 @@
   </compatibility>
   <comments></comments>
   <civix>
-    <namespace>CRM/EnhancedContactsSearch</namespace>
   </civix>
 </extension>
