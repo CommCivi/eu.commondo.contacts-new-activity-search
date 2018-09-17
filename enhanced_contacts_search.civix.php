@@ -7,7 +7,7 @@
  * extension.
  */
 class CRM_EnhancedContactsSearch_ExtensionUtil {
-  const SHORT_NAME = "enhanced_contacts_searchh";
+  const SHORT_NAME = "enhanced_contacts_search";
   const LONG_NAME = "eu.commondo.enhanced-contacts-search";
   const CLASS_PREFIX = "CRM_EnhancedContactsSearch";
 
