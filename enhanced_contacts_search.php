@@ -2,7 +2,7 @@
 
 require_once 'enhanced_contacts_search.civix.php';
 
-use CRM_ContactsNewActivitySearch_ExtensionUtil as E;
+use CRM_EnhancedContactsSearch_ExtensionUtil as E;
 
 /**
  * Implements hook_civicrm_config().

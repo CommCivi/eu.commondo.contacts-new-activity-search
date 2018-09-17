@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
+<extension key="eu.commondo.enhanced-contacts-search" type="module">
+  <file>enhanced_contacts_search</file>
+  <name>Enhanced contacts search</name>
   <description>This extension adds new functionality into the Contact -> New activity form. Except searching contact's by name or email, it giveawys functionality to search contacts by ID.</description>
   <license>AGPL-3.0</license>
   <maintainer>
