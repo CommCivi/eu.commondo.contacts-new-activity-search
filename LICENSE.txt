@@ -1,4 +1,3 @@
-Package: eu.commondo.contacts-new-activity-search
 Copyright (C) 2018, FIXME <FIXME>
 Licensed under the GNU Affero Public License 3.0 (below).
 

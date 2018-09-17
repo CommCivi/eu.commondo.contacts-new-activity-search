@@ -1,6 +1,5 @@
 <?php
 
-use CRM_ContactsNewActivitySearch_ExtensionUtil as E;
 
 /**
  * Contact2.Getlist API specification (optional)
